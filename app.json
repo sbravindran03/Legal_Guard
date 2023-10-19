@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "legal_guard",
+    "slug": "legal_guard"
+  }
+}
