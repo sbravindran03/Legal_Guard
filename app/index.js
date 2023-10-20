@@ -10,17 +10,17 @@ export default function Page() {
       <LinearGradient  className='h-full w-screen' colors={[ '#3B0169','#8E7AA7']}
        start={{ x: 2 , y: 1 }}
        end={{ x: 1, y: 0 }}>
-        <View className='bg-[#8E7AA7] h-28 border flex flex-row'>
+        <View className='bg-[#411d6c] h-28 flex flex-row'>
           <View className='flex flex-row justify-start pt-6'>
           <Image className='pr-3 h-[50] w-[40]' source={require('../assets/logo.png')} />
-          <Text className='text-[#3B0169] pl-2 pt-2 font-bold text-xl'>Legal</Text>
+          <Text className='text-[#ac4ff9] pl-2 pt-2 font-bold text-xl'>Legal</Text>
           <Text className='text-[#fff] pt-2 font-bold text-xl'> Guard</Text>
           </View>
           <View className='flex flex-row justify-center ml-20 mt-8 '>
           <TouchableOpacity className=''>
-            <LinearGradient className="h-10 w-32 text-sm flex flex-row justify-center items-center rounded-xl  border  " colors={['#8F27E0', '#DC6B47', '#F58400']} start={{ x: 0 , y: 3 }}
+            <LinearGradient className="h-10 w-32 text-sm flex flex-row justify-center items-center rounded-lg  border  " colors={['#8F27E0', '#DC6B47', '#F58400']} start={{ x: 0 , y: 3 }}
               end={{ x: 2 , y: 0 }}>
-               <Text className='text-md text-[#ffffff] justify-center font-bold p-1'>Connect Wallet</Text>
+               <Text className='text-md text-[#ffffff] justify-center font-bold p-1 '>Connect Wallet</Text>
             </LinearGradient>
           </TouchableOpacity>
           </View>
@@ -37,7 +37,7 @@ export default function Page() {
                <Text className='text-md text-[#ffffff] justify-center font-bold'>Get started</Text>
             </LinearGradient>
           </Link>
-            <Link className='' href='About'>
+          <Link className='' href='About'>
             <LinearGradient className="h-12 w-36 text-md flex flex-row justify-center items-center rounded-xl  border border-pure-100 " colors={['#8F27E0', '#DC6B47', '#F58400']} start={{ x: 0 , y: 2 ,z:1 }}
               end={{ x: 2 , y: 1 ,z:0}}>
                <Text className='text-md text-[#ffffff] justify-center font-bold'>Learn more</Text>
